@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<samples>
+  <sample name="Spatial query" type="SpatialQueryView" uri="#">This sample shows how to do a spatial query from a feature source. Click the buttons below to take effects.</sample>
+  <sample name="Transform a geometry" type="TransformAGeometryView" uri="#">This sample shows how to transform a geometry, including scale up, scale down and rotate. Click the buttons below to take effects.</sample>
+  <sample name="Get bound and center" type="GetBoundAndCenter" uri="#">This sample shows how to get bound and center of an identified feature. Try to click a country on the map.</sample>
+  <sample name="Get shortest line" type="GetShortestLineView" uri="#">This sample shows how to get the shortest line between two geometries.</sample>
+  <sample name="Get intersection" type="GetIntersectionView" uri="#">This sample shows how to get intersection between two geometries.</sample>
+  <sample name="Get distance" type="GetDistanceView" uri="#">This sample shows how to get distance between two geometries. Also try to change the distance unit and see the conversion.</sample>
+  <sample name="Buffer geometry" type="BufferGeometryView" uri="#">This sample shows how to buffer a specified geometry.</sample>
+  <sample name="Get convex hull" type="GetConvexHullView" uri="#">This sample shows how to get convext hull of a geometry. Click the button below and watch the highlight feature area.</sample>
+  <sample name="Get crossing points" type="GetCrossingPointsView" uri="#">This sample shows how to get points that cross a specified geometry.</sample>
+  <sample name="Get union" type="GetUnionView" uri="#">This sample shows how to get the unioned geometry of two specified geometries.</sample>
+  <sample name="Get difference" type="GetDifferenceView" uri="#">This sample shows how to get the difference between two specified geometries.</sample>
+  <sample name="Find the closest point" type="FindClosestPointView" uri="#">This sample shows how to find a closest point from current mouse location to a specified geometry. Move the mouse around and see the circle on the bound of the highlight feature.</sample>
+</samples>

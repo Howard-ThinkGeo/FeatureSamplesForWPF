@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<samples>
+  <sample name="Use google projection" type="UseGoogleProjectionView" uri="#">This sample shows how to reproject vector layers from WGS84 to Google's projection (900913). Click the button below to reproject.</sample>
+  <sample name="Use mollweide projection" type="UseMollweideProjectionView" uri="#">This sample shows how to reproject vector layers from WGS84 to Mollweide projection (54009). Click the button below to reproject.</sample>
+  <sample name="Use EPSG:2163 projection" type="UseEPSGProjectionView" uri="#">This sample shows how to reproject vector layers from WGS84 to Mollweide projection (54009). Click the button below to reproject.</sample>
+</samples>

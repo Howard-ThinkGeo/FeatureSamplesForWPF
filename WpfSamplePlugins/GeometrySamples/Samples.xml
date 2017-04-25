@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<samples>
+  <sample name="Get line on a line" type="GetLineOnALineView" uri="#">This sample shows how to get a line segmentation on a line. Click the button below to start.</sample>
+  <sample name="Get great circle" type="GetGreatCircleView" uri="#">This sample shows how to get a great circle between two coordinates in WGS84. Click the button below to start.</sample>
+  <sample name="Get point on a line" type="GetPointOnALineView" uri="#">This sample shows how to get a point on a line. Click the button below to start.</sample>
+  <sample name="Get area of polygon" type="GetAreaView" uri="#">This sample shows how to get the area of a polygon geometry. Click the section on the map :)</sample>
+  <sample name="Get distance of line" type="GetLengthView" uri="#">This sample shows how to get the distance of a line geometry. Click the road on the map :)</sample>
+  <sample name="Create geometry" type="CreateGeometryView" uri="#">This sample shows how to generate a specified geometry.</sample>
+  <sample name="WKB/WKT" type="GetWellKnownDataView" uri="#">This sample shows how to get wkt/wkb from a identified feature.</sample>
+</samples>

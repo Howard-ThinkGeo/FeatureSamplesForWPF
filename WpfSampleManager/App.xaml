@@ -1,0 +1,19 @@
+﻿<Application x:Class="SlimGISSampleManager.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:SlimGISSampleManager"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <SolidColorBrush x:Key="HeadBGBrush" Color="#00BCD4" />
+        <SolidColorBrush x:Key="BGBrush" Color="#EEEEEE" />
+        <SolidColorBrush x:Key="BlockBGBrush" Color="White" />
+        <SolidColorBrush x:Key="LabelBrush" Color="#111111" />
+        <SolidColorBrush x:Key="HeadLabelBrush" Color="White" />
+        <DropShadowEffect x:Key="Shadow"
+                          BlurRadius="4"
+                          Opacity="0.3"
+                          ShadowDepth="2"
+                          Color="Black" />
+        <Thickness x:Key="BottomMargin" Bottom="5" />
+    </Application.Resources>
+</Application>

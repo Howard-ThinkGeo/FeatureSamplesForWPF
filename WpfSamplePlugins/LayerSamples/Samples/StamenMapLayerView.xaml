@@ -1,0 +1,37 @@
+﻿<UserControl x:Class="SlimGis.Samples.StamenMapLayerView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:Wpf="clr-namespace:SlimGis.MapKit.Wpf;assembly=SGMapKit.Wpf"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:local="clr-namespace:SlimGis.Samples"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:sm="clr-namespace:SlimGis.Samples;assembly=SlimGis.WpfSamples.Core"
+             xmlns:sml="clr-namespace:SlimGis.MapKit.Layers;assembly=SGMapKit.Core"
+             d:DesignHeight="300"
+             d:DesignWidth="300"
+             mc:Ignorable="d">
+    <Grid>
+        <sm:SampleTemplate>
+            <sm:SampleTemplate.MapContent>
+                <Wpf:MapControl x:Name="Map1" Loaded="Map1_Loaded" />
+            </sm:SampleTemplate.MapContent>
+            <sm:SampleTemplate.ControlContent>
+                <StackPanel Orientation="Vertical">
+                    <StackPanel.Resources>
+                        <ObjectDataProvider x:Key="MapTypeProvider"
+                                            MethodName="GetValues"
+                                            ObjectType="{x:Type sml:StamenMapType}">
+                            <ObjectDataProvider.MethodParameters>
+                                <x:Type TypeName="sml:StamenMapType" />
+                            </ObjectDataProvider.MethodParameters>
+                        </ObjectDataProvider>
+                    </StackPanel.Resources>
+                    <ComboBox x:Name="MapTypeComboBox"
+                              ItemsSource="{Binding Source={StaticResource MapTypeProvider}}"
+                              SelectedIndex="0"
+                              SelectionChanged="MapTypeComboBox_SelectionChanged" />
+                </StackPanel>
+            </sm:SampleTemplate.ControlContent>
+        </sm:SampleTemplate>
+    </Grid>
+</UserControl>

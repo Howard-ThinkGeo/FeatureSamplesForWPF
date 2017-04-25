@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<samples>
+  <sample name="Use point style" type="UsePointStyleView" uri="#">This sample shows how to set a style for point vector layers. Click the button below to switch to another random color.</sample>
+  <sample name="Use fill style" type="UseFillStyleView" uri="#">This sample shows how to set a style for area vector layers. Click the button below to switch to another random color.</sample>
+  <sample name="Use line style" type="UseLineStyleView" uri="#">This sample shows how to set a style for line vector layers. Click the button below to switch to another random color.</sample>
+  <sample name="Use label style" type="UseLabelStyleView" uri="#">This sample shows how to set a label style for vector layers. Click the button below to switch to another random color.</sample>
+  <sample name="Use character style" type="UseCharStyleView" uri="#">This sample shows how to set a character style for vector layers. Click the button below to switch to another random color.</sample>
+  <sample name="Use classbreak style" type="UseClassBreakStyleView" uri="#">This sample shows how to set a class break style for vector layers. Select the combobox to change the color family. Click the button below to switch to another random color.</sample>
+  <sample name="Use value style" type="UseValueStyleView" uri="#">This sample shows how to set a value style for vector layers. Select the combobox to change the color family. Click the button below to switch to another random color.</sample>
+  <sample name="Use heat style" type="UseHeatStyleView" uri="#">This sample shows how to set a heat style for vector layers. Use combobox select theme, and another combox to change heat point size.</sample>
+</samples>

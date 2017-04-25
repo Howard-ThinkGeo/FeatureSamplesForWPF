@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<samples>
+  <sample name="Use memory layer" type="MemoryLayerView" uri="#">This sample shows how to add a memory layer to map.</sample>
+  <sample name="Use shapefile layer" type="ShapefileLayerView" uri="#">This sample shows how to do add a shapefile layer to map. </sample>
+  <sample name="Use sqlite layer" type="SqliteLayerView" uri="#">This sample shows how to add a sqlite layer to map. </sample>
+  <sample name="Use grid layer" type="GridLayerView" uri="#">This sample shows how to do add a grid layer to map. </sample>
+  <sample name="Use googlemaps layer" type="GoogleMapsLayerView" uri="#">This sample shows how to add a google layer to map. Click the buttons below to change map type.</sample>
+  <sample name="Use openstreetmap layer" type="OpenStreetMapLayerView" uri="#">This sample shows how to add a openstreetmap layer to map. </sample>
+  <sample name="Use bingmaps layer" type="BingMapsLayerView" uri="#">This sample shows how to add a bingmaps layer to map. Click the buttons below to change map type.</sample>
+  <sample name="Use stamenmap layer" type="StamenMapLayerView" uri="#">This sample shows how to add a stamen layer to map. Click the buttons below to change map type.</sample>
+  <sample name="Use wms layer" type="WmsLayerView" uri="#">This sample shows how to add a wms layer to map. </sample>
+  <sample name="Use geoimage layer" type="GeoImageLayerView" uri="#">This sample shows how to add a geoimage layer to map. </sample>
+  <!--<sample name="Use postgre sql layer" type="PostgreSqlLayerView" uri="#">This sample shows how to add a postgre sql layer to map. </sample>-->
+</samples>

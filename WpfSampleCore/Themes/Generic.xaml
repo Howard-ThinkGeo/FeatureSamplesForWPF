@@ -1,0 +1,60 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:local="clr-namespace:SlimGis.Samples">
+    <Style TargetType="{x:Type local:SampleTemplate}">
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type local:SampleTemplate}">
+                    <Grid DataContext="{Binding RelativeSource={RelativeSource TemplatedParent}, Path=DataContext}">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition />
+                            <ColumnDefinition Width="Auto" />
+                        </Grid.ColumnDefinitions>
+                        <Grid Background="White" Effect="{DynamicResource Shadow}">
+                            <Grid>
+                                <Grid.Background>
+                                    <ImageBrush AlignmentX="Left"
+                                                AlignmentY="Top"
+                                                ImageSource="/SlimGis.WpfSamples.Core;component/Images/bg.png"
+                                                Stretch="None"
+                                                TileMode="Tile"
+                                                Viewport="0,0,24,24"
+                                                ViewportUnits="Absolute" />
+                                </Grid.Background>
+                                <ContentPresenter Content="{TemplateBinding MapContent}" />
+                            </Grid>
+                        </Grid>
+                        <Grid Grid.Column="1"
+                              Width="230"
+                              Margin="10 0 0 0"
+                              Visibility="{Binding ControlPanelVisibility}">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="Auto" />
+                                <RowDefinition Height="5" />
+                                <RowDefinition />
+                            </Grid.RowDefinitions>
+                            <Grid Background="#EEEEEE" Effect="{DynamicResource Shadow}">
+                                <StackPanel Margin="5">
+                                    <TextBlock Margin="0,0,0,10"
+                                               FontWeight="Bold"
+                                               Text="{Binding Name}" />
+                                    <TextBlock Margin="0,0,0,10"
+                                               Foreground="#111111"
+                                               Text="{Binding Description}"
+                                               TextWrapping="Wrap" />
+                                    <TextBlock>
+                                        <Hyperlink NavigateUri="{Binding SourceUri}">View source on github</Hyperlink>
+                                    </TextBlock>
+                                </StackPanel>
+                            </Grid>
+
+                            <Grid Grid.Row="2" Background="White">
+                                <ContentPresenter Margin="5,20,5,10" Content="{TemplateBinding ControlContent}" />
+                            </Grid>
+                        </Grid>
+                    </Grid>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+</ResourceDictionary>
